@@ -206,3 +206,106 @@ footer{
 .entry .right-img{
     float: right;
 }
+
+/* About */
+
+#about{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+.deskripsi{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.deskripsi h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.deskripsi p{
+    line-height: 25px;
+}
+
+
+.side-about{
+    float: right;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.side-about img{
+    max-width: 50%;
+    border-radius: 20px;
+    height: auto;
+}
+
+/* Contact */
+
+#contact {
+    width: 940px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 15px; 
+    font-size: 30px; 
+}
+
+.form {
+    max-width: 500px; 
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 15px;
+    outline: none;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+    border-color: cyan;
+    box-shadow: 0px 0px 5px rgb(1, 232, 232);
+}
+
+
+.form input[type="submit"] {
+    background-color: cyan;
+    color: #fff;
+    font-weight: 800;
+    padding: 15px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(1, 232, 232);
+}
